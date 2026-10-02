@@ -1,0 +1,10 @@
+com\phonebook\controller\ContactController.class
+com\phonebook\service\ContactService.class
+com\phonebook\entity\Contact.class
+com\phonebook\PhonebookBackendApplication.class
+com\phonebook\exception\GlobalExceptionHandler.class
+com\phonebook\dto\ContactRequest.class
+com\phonebook\dto\ContactResponse.class
+com\phonebook\exception\ContactNotFoundException.class
+com\phonebook\repository\ContactRepository.class
+com\phonebook\exception\DuplicateContactException.class
