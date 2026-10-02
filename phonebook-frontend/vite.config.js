@@ -6,6 +6,7 @@ export default defineConfig({
 
   preview: {
     allowedHosts: ['.ngrok-free.dev'],
+
     proxy: {
       '/api': {
         target: 'http://backend:8080',
