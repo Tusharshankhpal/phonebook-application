@@ -27,7 +27,7 @@ public class Admin {
     public Long getId() {
         return id;
     }
-
+    
     public String getUsername() {
         return username;
     }

@@ -15,7 +15,12 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/contacts")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(
+    origins = {
+        "http://localhost:5173",
+        "https://trapeze-humongous-banknote.ngrok-free.dev"
+    }
+)
 public class ContactController {
 
     private final ContactService contactService;
